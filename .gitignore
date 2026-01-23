@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+*.local
+
+# Build outputs
+dist/
+build/
+.expo/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Mobile specific
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
