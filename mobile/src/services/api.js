@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-// Configure base URL - change this to your backend URL
+// Configure base URL - use local network IP for Expo Go on physical devices
 const API_BASE_URL = __DEV__
-  ? 'http://localhost:3000/api'
+  ? 'http://10.0.0.20:3000/api'
   : 'https://your-production-api.com/api';
 
 const api = axios.create({
