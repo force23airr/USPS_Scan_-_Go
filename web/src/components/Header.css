@@ -1,0 +1,33 @@
+.header {
+  background-color: var(--color-primary);
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left,
+.header__right {
+  width: 70px;
+}
+
+.header__title {
+  color: var(--color-white);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header__back {
+  background: none;
+  border: none;
+  color: var(--color-white);
+  font-size: 16px;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+}
+
+.header__back:hover {
+  opacity: 0.8;
+}

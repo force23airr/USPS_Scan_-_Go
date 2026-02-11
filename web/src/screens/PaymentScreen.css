@@ -1,0 +1,35 @@
+.payment__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.payment__label {
+  font-size: 14px;
+  color: var(--color-gray);
+}
+
+.payment__value {
+  font-size: 14px;
+  color: var(--color-gray-dark);
+  font-weight: 500;
+}
+
+.payment__total-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-gray-dark);
+}
+
+.payment__total-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.payment__secure-text {
+  text-align: center;
+  color: var(--color-gray);
+  font-size: 12px;
+  margin-top: 12px;
+}

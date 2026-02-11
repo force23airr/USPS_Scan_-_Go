@@ -1,0 +1,29 @@
+.scan__description {
+  font-size: 14px;
+  color: var(--color-gray);
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.scan__divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.scan__divider hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid var(--color-gray-light);
+}
+
+.scan__divider span {
+  color: var(--color-gray);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.scan__new-btn {
+  margin-top: 0;
+}

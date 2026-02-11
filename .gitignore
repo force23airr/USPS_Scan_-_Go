@@ -8,7 +8,6 @@ node_modules/
 # Build outputs
 dist/
 build/
-.expo/
 
 # IDE
 .vscode/
@@ -22,9 +21,3 @@ Thumbs.db
 *.log
 npm-debug.log*
 
-# Mobile specific
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision

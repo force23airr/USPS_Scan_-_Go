@@ -1,0 +1,313 @@
+.confirm__hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.confirm__success-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--color-success);
+  color: var(--color-white);
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.confirm__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-gray-dark);
+  margin-bottom: 8px;
+}
+
+.confirm__subtitle {
+  font-size: 16px;
+  color: var(--color-gray);
+  line-height: 1.4;
+}
+
+/* Tracking Number */
+.confirm__tracking {
+  text-align: center;
+  background-color: #F0F7FF;
+  border: 2px solid var(--color-primary);
+}
+
+.confirm__tracking-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-gray);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.confirm__tracking-number {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: monospace;
+  color: var(--color-primary);
+  letter-spacing: 1px;
+}
+
+/* Shipping Label */
+.confirm__label {
+  border: 3px solid var(--color-black);
+  border-radius: 4px;
+  padding: 20px;
+  background-color: var(--color-white);
+}
+
+.confirm__label-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.confirm__label-usps {
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--color-primary);
+  letter-spacing: 2px;
+}
+
+.confirm__label-postage {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.confirm__label-service-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.confirm__label-service {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-gray-dark);
+  text-transform: uppercase;
+}
+
+.confirm__label-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-gray-dark);
+}
+
+.confirm__label-addresses {
+  padding: 12px 0;
+}
+
+.confirm__label-from {
+  margin-bottom: 20px;
+}
+
+.confirm__label-addr-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-gray);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.confirm__label-from p {
+  font-size: 13px;
+  color: var(--color-gray-dark);
+  line-height: 1.4;
+}
+
+.confirm__label-to {
+  padding-left: 40px;
+}
+
+.confirm__label-to .confirm__label-addr-title {
+  font-size: 12px;
+  color: var(--color-black);
+}
+
+.confirm__label-to-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-black);
+  line-height: 1.3;
+}
+
+.confirm__label-to-line {
+  font-size: 16px;
+  color: var(--color-black);
+  line-height: 1.4;
+}
+
+.confirm__label-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.confirm__label-weight {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-gray-dark);
+}
+
+.confirm__label-barcode {
+  text-align: center;
+}
+
+.confirm__label-barcode-bars {
+  height: 40px;
+  width: 200px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-black) 0px,
+    var(--color-black) 2px,
+    var(--color-white) 2px,
+    var(--color-white) 4px,
+    var(--color-black) 4px,
+    var(--color-black) 5px,
+    var(--color-white) 5px,
+    var(--color-white) 8px,
+    var(--color-black) 8px,
+    var(--color-black) 10px,
+    var(--color-white) 10px,
+    var(--color-white) 11px,
+    var(--color-black) 11px,
+    var(--color-black) 14px,
+    var(--color-white) 14px,
+    var(--color-white) 16px
+  );
+  margin-bottom: 4px;
+}
+
+.confirm__label-barcode-text {
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--color-gray-dark);
+  letter-spacing: 0.5px;
+}
+
+/* Label PDF image */
+.confirm__label-pdf {
+  text-align: center;
+}
+
+.confirm__label-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Actions */
+.confirm__actions {
+  margin-bottom: 16px;
+}
+
+.confirm__download-btn {
+  margin-top: 8px;
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.confirm__download-btn:hover {
+  background-color: #F0F7FF;
+}
+
+/* Detail rows */
+.confirm__detail-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.confirm__detail-label {
+  font-size: 14px;
+  color: var(--color-gray);
+}
+
+.confirm__detail-value {
+  font-size: 14px;
+  color: var(--color-gray-dark);
+  font-weight: 500;
+}
+
+.confirm__detail-value--price {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* Instructions */
+.confirm__instructions {
+  background-color: #FFF9E6;
+  border: 1px solid #FFE082;
+}
+
+.confirm__instruction {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: var(--color-gray-dark);
+}
+
+.confirm__instruction:last-child {
+  margin-bottom: 0;
+}
+
+.confirm__instruction-num {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Print styles — only show the label when printing */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #printable-label,
+  #printable-label * {
+    visibility: visible;
+  }
+
+  #printable-label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4in;
+    padding: 0;
+  }
+
+  .confirm__label {
+    border-width: 2px;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .confirm__label-pdf {
+    margin: 0;
+    padding: 0;
+  }
+}

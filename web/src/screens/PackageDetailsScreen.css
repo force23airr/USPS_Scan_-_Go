@@ -1,0 +1,142 @@
+.package__weight-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.package__weight-input {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+}
+
+.package__unit-toggle {
+  display: flex;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  background-color: var(--color-gray-light);
+}
+
+.package__unit-btn {
+  padding: 14px 20px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-gray);
+  cursor: pointer;
+}
+
+.package__unit-btn--active {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.package__dims-row {
+  display: flex;
+  gap: 12px;
+}
+
+.package__dim {
+  flex: 1;
+  text-align: center;
+}
+
+.package__dim-label {
+  font-size: 12px;
+  color: var(--color-gray);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.package__contents-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.package__content-btn {
+  background-color: var(--color-background);
+  border: 1px solid var(--color-gray-light);
+  border-radius: var(--border-radius);
+  padding: 12px 16px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--color-gray-dark);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.package__content-btn:hover {
+  border-color: var(--color-primary);
+}
+
+.package__content-btn--active {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 700;
+}
+
+.package__value-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.package__dollar {
+  font-size: 20px;
+  color: var(--color-gray);
+}
+
+.package__value-input {
+  flex: 1;
+}
+
+.package__hazmat-subtitle {
+  color: var(--color-gray);
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.package__hazmat-q {
+  margin-bottom: 16px;
+}
+
+.package__hazmat-text {
+  font-size: 14px;
+  color: var(--color-gray-dark);
+  margin-bottom: 8px;
+}
+
+.package__yesno-row {
+  display: flex;
+  gap: 8px;
+}
+
+.package__yesno-btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-gray-light);
+  background: none;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-gray);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.package__yesno-btn--no {
+  background-color: var(--color-success);
+  border-color: var(--color-success);
+  color: var(--color-white);
+}
+
+.package__yesno-btn--yes {
+  background-color: var(--color-error);
+  border-color: var(--color-error);
+  color: var(--color-white);
+}

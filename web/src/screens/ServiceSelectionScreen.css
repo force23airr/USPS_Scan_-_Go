@@ -1,0 +1,136 @@
+.services__summary-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-gray);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.services__summary-row {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.services__summary-label {
+  width: 60px;
+  font-size: 14px;
+  color: var(--color-gray);
+}
+
+.services__summary-value {
+  flex: 1;
+  font-size: 14px;
+  color: var(--color-gray-dark);
+  font-weight: 500;
+}
+
+.services__section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-gray-dark);
+  margin-bottom: 16px;
+}
+
+.services__card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-lg);
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.services__card:hover {
+  border-color: var(--color-gray-light);
+}
+
+.services__card--selected {
+  border-color: var(--color-primary);
+  background-color: #F0F7FF;
+}
+
+.services__card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__card-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 16px;
+}
+
+.services__card-name {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-gray-dark);
+  margin-bottom: 4px;
+}
+
+.services__card-name--selected {
+  color: var(--color-primary);
+}
+
+.services__card-desc {
+  font-size: 13px;
+  color: var(--color-gray);
+  margin-bottom: 4px;
+}
+
+.services__card-days {
+  font-size: 13px;
+  color: var(--color-success);
+  font-weight: 500;
+}
+
+.services__card-price {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-gray-dark);
+  align-self: center;
+}
+
+.services__card-price--selected {
+  color: var(--color-primary);
+}
+
+.services__card-badge {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-gray-light);
+  text-align: center;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.services__empty {
+  text-align: center;
+  padding: 40px;
+  color: var(--color-gray);
+  font-size: 16px;
+}
+
+.services__total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.services__total-label {
+  font-size: 16px;
+  color: var(--color-gray);
+}
+
+.services__total-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-primary);
+}

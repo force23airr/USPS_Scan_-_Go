@@ -1,8 +1,7 @@
 import axios from 'axios';
 
-// Configure base URL - use local network IP for Expo Go on physical devices
-const API_BASE_URL = __DEV__
-  ? 'http://10.0.0.20:3000/api'
+const API_BASE_URL = import.meta.env.DEV
+  ? '/api'
   : 'https://your-production-api.com/api';
 
 const api = axios.create({
@@ -13,51 +12,38 @@ const api = axios.create({
   },
 });
 
-/**
- * Validate an address with USPS
- */
 export async function validateAddress(address) {
   const response = await api.post('/address/validate', address);
   return response.data;
 }
 
-/**
- * Get shipping rates for a package
- */
 export async function getShippingRates(params) {
   const response = await api.post('/prices', params);
   return response.data;
 }
 
-/**
- * Create a new shipping transaction
- */
 export async function createTransaction(data) {
   const response = await api.post('/transaction', data);
   return response.data;
 }
 
-/**
- * Get transaction by ID
- */
 export async function getTransaction(transactionId) {
   const response = await api.get(`/transaction/${transactionId}`);
   return response.data;
 }
 
-/**
- * Process payment for a transaction
- */
 export async function processPayment(transactionId, paymentData) {
   const response = await api.post(`/transaction/${transactionId}/payment`, paymentData);
   return response.data;
 }
 
-/**
- * Verify a transaction (for kiosk scanning)
- */
 export async function verifyTransaction(transactionId) {
   const response = await api.post(`/transaction/${transactionId}/verify`);
+  return response.data;
+}
+
+export async function createLabel(transactionId) {
+  const response = await api.post(`/transaction/${transactionId}/label`);
   return response.data;
 }
 
